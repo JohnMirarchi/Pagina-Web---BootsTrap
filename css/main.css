@@ -12,70 +12,53 @@ body{
 }
 
 .body{
-    height: 100vh;
+    height: 87vh;
 }
 
-
-nav ul li a{
-    text-transform: uppercase;
-    color: white;
-    text-decoration: none;
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0BB3D9;
 }
 
-.nav-link{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.navbar-brand{
-    font-weight: bold;
-}
-
-div a{
-    text-decoration: none;
-    color: white;
-}
-
-.nav-item{
-    padding-left: 700px;
-    text-transform: uppercase;
-}
-
-.navbar-nav{
-    text-decoration: none;
-}
-
-/*estilo coontenido*/
-
-main{
-    padding-left: 20px;
-    padding-bottom: 30px;
-}
-
-.bio-director{
-    text-align: justify;
+header h1{
+    text-align: center;
     color: white;
     text-transform: uppercase;
-}
-
-.foto-juan{
-    width: 200px;
-}
-
-.nombre-dire{
-    color: white;
-    text-transform: uppercase;
-    padding-top: 1.5rem;
-    font-family: 'Montserrat', sans-serif, Impact;
-    font-weight: bold;
-}
-.bio-dire{
-    color: white;
-    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-right: 10px;
+    font-weight: bold;
+    padding-left: 260px;
+}
+
+header nav ul{
+    display: flex;
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+    justify-content: space-around;
+    color: white;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5px;
+}
+
+header nav ul li a{
+    text-decoration: underline;
+    color: white;
+}
+
+.container-fluid{
+    padding-top: 100px;
+    margin-bottom: 250px;
 }
 
 /* estilos generales footer */
@@ -94,6 +77,7 @@ footer{
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 20px;
+    padding-left: 140px;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -112,6 +96,12 @@ footer nav ul li{
     display: inline-block; 
 }
 
+footer nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* estilos generales pages */
 
 .card-body{
     text-align: justify;
