@@ -1,0 +1,187 @@
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilo menu*/
+
+body{
+    height: 100vh;
+    background-image: url(../img/fondo.jpg);
+}
+
+.body{
+    height: 100vh;
+}
+
+
+nav ul li a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item{
+    padding-left: 700px;
+    text-transform: uppercase;
+}
+
+.navbar-nav{
+    text-decoration: none;
+}
+
+/*estilo coontenido*/
+
+main{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.bio-director{
+    text-align: justify;
+    color: white;
+    text-transform: uppercase;
+}
+
+.foto-juan{
+    width: 200px;
+}
+
+.nombre-dire{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 1.5rem;
+    font-family: 'Montserrat', sans-serif, Impact;
+    font-weight: bold;
+}
+.bio-dire{
+    color: white;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 10px;
+}
+
+/* estilos generales footer */
+
+footer{
+    display: flex;
+    align-items: baseline;
+    margin-top:auto;
+    background-color: #0BB3D9;
+    justify-content:space-around;
+    color: #fcfcfc;
+}
+
+.footer-titulo{
+    color: #fcfcfc;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.redes-s{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 5px;
+}
+
+footer nav ul li{
+    display: inline-block; 
+}
+
+
+.card-body{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.largometrajes{
+    font-size: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:bold;
+}
+
+.card-body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.volverA{
+    padding-left: 525px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.tamaño-video{
+    width: 830px;
+    height: 440px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.videoclip{
+    font-size: 32px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:bold;
+    padding-left: 230px;
+}
+.link-videoclips{
+    padding-left: 230px;
+}
+
+.contacto{
+    font-size: 32px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+    padding-left: 230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formulario{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 22px;
+}
