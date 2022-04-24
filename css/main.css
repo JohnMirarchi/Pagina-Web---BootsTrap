@@ -19,7 +19,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0BB3D9;
+    background-color: #730217;
+    ;
 }
 
 header h1{
@@ -32,13 +33,16 @@ header h1{
     padding-left: 260px;
 }
 
+header nav{
+    text-decoration: none;
+}
+
 header nav ul{
     display: flex;
-    text-decoration: none;
-    text-decoration: underline;
     color: white;
     justify-content: space-around;
     color: white;
+    font-weight: bold;
 }
 
 header nav ul li{
@@ -46,7 +50,6 @@ header nav ul li{
     margin: 0.5rem;
     font-size: 1rem;
     text-transform: uppercase;
-    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     padding-top: 5px;
 }
@@ -54,12 +57,15 @@ header nav ul li{
 header nav ul li a{
     text-decoration: underline;
     color: white;
+    text-decoration: none;
 }
 
 .container-fluid{
-    padding-top: 100px;
-    margin-bottom: 250px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+
 }
+
 
 /* estilos generales footer */
 
@@ -67,7 +73,7 @@ footer{
     display: flex;
     align-items: baseline;
     margin-top:auto;
-    background-color: #0BB3D9;
+    background-color: #730217D9;
     justify-content:space-around;
     color: #fcfcfc;
 }
@@ -107,6 +113,9 @@ footer nav ul li a{
     text-align: justify;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+    justify-content: center;
 }
 
 .largometrajes{
@@ -120,9 +129,15 @@ footer nav ul li a{
     font-weight:bold;
 }
 
-.card-body{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+.col-md-6{
+    background-color: black;
+    border-radius: 0.5rem;
+}
+
+.img-fluid{
+    border-radius: 1.5rem;
+    padding: 7px;
+    background-color: white;
 }
 
 .volverA{
@@ -130,11 +145,16 @@ footer nav ul li a{
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .card-title{
-    text-transform: uppercase;
-    font-weight:bold;
+    color: white;
+    background-color: #730217D9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 60px;
+    font-size: 25px;
 }
 
 .tamaño-video{
@@ -174,4 +194,25 @@ footer nav ul li a{
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     font-size: 22px;
+}
+
+.formC{
+    background-color: #730217D9;
+}
+
+.card-text{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    }
+
+.card{
+    padding: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main{
+    margin-bottom: 40px;
 }

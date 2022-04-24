@@ -52,11 +52,12 @@
   </header>
 
 <main class="body">
-    <section class="container d-flex justify-content-center bg-black">
+    <section class="container d-flex justify-content-center">
     <div class="cajas-peliculas">
             <h1 class="contacto"> Contacto </h1>
     <div class="formulario">
-    <form class="row g-3 needs-validation" novalidate>
+   <div class="formC">
+    <form class="row g-3 needs-validation, formC" novalidate>
         <div class="col-md-4 position-relative">
           <label for="validationTooltip01" class="form-label">Nombre</label>
           <input type="text" class="form-control" id="validationTooltip01" value="Leandro" required>
@@ -71,17 +72,7 @@
             Looks good!
           </div>
         </div>
-        <div class="col-md-4 position-relative">
-          <label for="validationTooltipUsername" class="form-label">Usuario</label>
-          <div class="input-group has-validation">
-            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
-            <div class="invalid-tooltip">
-              Por favor, elige un usuario disponible.
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 position-relative">
+        <div class="col-md-6 position-relative, formC">
           <label for="validationTooltip03" class="form-label">ciudad</label>
           <input type="text" class="form-control" id="validationTooltip03" value="Ciudad" required>
           <div class="invalid-tooltip">
@@ -101,7 +92,7 @@
             Por favor, elige un país valido.
           </div>
         </div>
-        <div class="col-md-6 position-relative">
+        <div class="col-md-6 position-relative, formC">
             <label for="validationTooltip03" class="form-label">Deja tu mensaje</label>
             <input type="text" class="form-control" id="validationTooltip03" value="Deja tu mensaje" required>
         </div>
@@ -113,28 +104,18 @@
    </section>
 </main>    
 
-    <footer>
-      <p class="footer-titulo">
-          Todos los derechos reservados
-      </p>
-      
-      <div class="redes-s">
-          <nav class="footer-color">
-              <ul>
-                 <li> 
-                    <a href="https://www.instagram.com/juan.mirarchi" target="_blank" class="igColor"> <i class="bi bi-instagram"></i></a>
-                 </li>           
-                 <li> 
-                    <a href="https://www.youtube.com/channel/UCIj0yRpeJqkEbH-NqTWWFAA" target="_blank" class="ytColor"> <i class="bi bi-youtube"></i></a>
-                  </li>
-                  <li>
-                     <a href="https://www.facebook.com/John.Mirarchi" target="_blank" class="fbColor"> <i class="bi bi-facebook"></i>
-                      </a>
-                  </li>
-              </ul>
-          <nav>
-      </div>
-  </footer>
+<footer>
+  <p class="footer-titulo"> Todos los derechos reservados </p>
+  <div class="redes-s">
+    <nav class="footer-color">
+      <ul>
+        <li> <a href="https://www.instagram.com/juan.mirarchi" target="_blank" class="igColor"> <i class="bi bi-instagram"></i></a></li>           
+        <li> <a href="https://www.youtube.com/channel/UCIj0yRpeJqkEbH-NqTWWFAA" target="_blank" class="ytColor"> <i class="bi bi-youtube"></i></a></li>
+        <li> <a href="https://www.facebook.com/John.Mirarchi" target="_blank" class="fbColor"> <i class="bi bi-facebook"></i></a></li>
+      </ul>
+    <nav>
+  </div>
+</footer>
 </div> 
 <!-- Link a mi js--> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
