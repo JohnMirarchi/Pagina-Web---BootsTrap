@@ -7,64 +7,44 @@
 /*estilo menu*/
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../img/fondo.jpg);
 }
 
 .body{
-    height: 87vh;
+    min-height: 100vh;
+}
+
+#menu{
+    background-color: #730217D9;
+    color: white;
 }
 
 header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #730217;
-    ;
-}
-
-header h1{
-    text-align: center;
-    color: white;
+    background-color: #730217D9;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    padding-left: 260px;
-}
-
-header nav{
-    text-decoration: none;
-}
-
-header nav ul{
-    display: flex;
-    color: white;
-    justify-content: space-around;
-    color: white;
+    font-family:'Montserrat';
     font-weight: bold;
 }
 
-header nav ul li{
-    list-style: none;
-    margin: 0.5rem;
-    font-size: 1rem;
+#menu a{
+    color: #F0EBEF;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 5px;
+    font-family:'Montserrat';
+    font-weight: bold;
 }
 
-header nav ul li a{
-    text-decoration: underline;
-    color: white;
-    text-decoration: none;
+.dropdown-menu{
+    text-transform: uppercase;
+    font-family:'Montserrat';
+    font-weight: bold;
+    background-color: #730217D9;
 }
 
-.container-fluid{
-    padding-top: 40px;
-    margin-bottom: 10px;
-
+.navbar-toggler-icon{
+    background-color: #97152dd9;
 }
+
 
 
 /* estilos generales footer */
@@ -72,10 +52,10 @@ header nav ul li a{
 footer{
     display: flex;
     align-items: baseline;
-    margin-top:auto;
     background-color: #730217D9;
     justify-content:space-around;
     color: #fcfcfc;
+    margin-top: auto;
 }
 
 .footer-titulo{
@@ -83,9 +63,9 @@ footer{
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 20px;
-    padding-left: 140px;
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Montserrat';
+    margin-left: 12px;
 }
 
 .redes-s{
@@ -93,7 +73,7 @@ footer{
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: flex-end;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-size: 25px;
     margin: 5px;
 }
@@ -112,21 +92,34 @@ footer nav ul li a{
 .card-body{
     text-align: justify;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: black;
-    color: white;
+    font-family: 'Montserrat';
+    background-color: white;
+    color: black;
     justify-content: center;
+    font-weight: bold;
+    padding: 25px;
 }
 
 .largometrajes{
     font-size: 30px;
     color: white;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     font-weight:bold;
+    background-color: #730217D9;
+}
+
+.bg-titulo{
+    background-color: #730217D9;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.color-sinopsis{
+    color: black;
+    background-color: #F0EBEF;
 }
 
 .col-md-6{
@@ -135,17 +128,18 @@ footer nav ul li a{
 }
 
 .img-fluid{
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     padding: 7px;
     background-color: white;
 }
 
-.volverA{
-    padding-left: 525px;
-    font-family: 'Montserrat', sans-serif;
+#volverA{
+    padding-left: 50px;
+    font-family: 'Montserrat';
     font-weight:bold;
     text-transform: uppercase;
     text-decoration: none;
+    color: white;
 }
 
 .card-title{
@@ -155,6 +149,7 @@ footer nav ul li a{
     border-radius: 0.5rem;
     padding-left: 60px;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .tamaño-video{
@@ -167,13 +162,14 @@ footer nav ul li a{
 .videoclip{
     font-size: 32px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     text-transform: uppercase;
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight:bold;
     padding-left: 230px;
 }
+
 .link-videoclips{
     padding-left: 230px;
 }
@@ -181,30 +177,42 @@ footer nav ul li a{
 .contacto{
     font-size: 32px;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     text-transform: uppercase;
     font-weight:bold;
-    padding-left: 230px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh; 
 }
 
-.formulario{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight:bold;
-    font-size: 22px;
-}
-
-.formC{
+.head{
     background-color: #730217D9;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: -70px;
+    box-shadow: -1px 4px 20px -4px #fc4365d9;
+}
+
+.btn1{
+    background-color: #730217D9;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    border-radius: 5px;
+    height: 40px;
+    width: 135px;
+}
+
+
+.form input{
+    width: 180px;
 }
 
 .card-text{
-    background-color: white;
+    background-color: #F0EBEF;
     color: black;
     padding: 10px;
-    }
+}
 
 .card{
     padding: 5px;
@@ -215,4 +223,44 @@ footer nav ul li a{
 
 main{
     margin-bottom: 40px;
+}
+
+.videoclip{
+    color: white;
+    font-size: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 535px;
+    font-weight:bold;
+}
+
+@media only screen and (min-width:200px){
+    .form input{
+        width: 120px;
+    }
+}
+
+@media only screen and (min-width:350px){
+    .form input{
+        width: 180px;
+    }
+}
+
+
+@media only screen and (min-width:700px){
+    
+    .form input{
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+
+    .form input{
+        width: 350px;
+    }
 }

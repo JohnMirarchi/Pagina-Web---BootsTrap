@@ -20,35 +20,35 @@
 
 <body>
   <header>
-    <h1>Juan Mirarchi</h1>
-    <nav>
-      <ul>
-          <li>
-              <a href="#">
-                  Home
+      <nav class="navbar navbar-expand-lg navbar-light" id="menu">
+      <div class="container justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img src="img\Juan_Mirarchi_cocosignwhite.png" alt="logo" width="200px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Videografía
               </a>
-          </li>
-          <li>
-              <a href="pages/largometrajes.html"> 
-                  Películas
-              </a>
-          </li>
-          <li>
-              <a href="pages/cortometrajes.html">
-                 Cortos
-               </a>
-          </li>
-          <li>
-              <a href="pages/videoclips.html">
-                 Videoclip
-              </a>
-          </li>
-          <li> 
-              <a href="pages/contacto.html"> 
-               Contacto
-              </a>
-          </li>
-      </ul>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="pages/largometrajes.html">Películas</a></li>
+                <li><a class="dropdown-item" href="pages/cortometrajes.html">Cortos</a></li>
+                <li><a class="dropdown-item" href="pages/videoclips.html">Videoclip</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>    
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
@@ -76,7 +76,7 @@
     </section>
   </main>
 
-<footer>
+<footer class="w-100 d-flex align-items justify-content-center">
   <p class="footer-titulo">
       Todos los derechos reservados
   </p>
